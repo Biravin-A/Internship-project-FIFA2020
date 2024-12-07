@@ -88,6 +88,21 @@ Create a report which should include challenges you faced on data and what techn
 Note:-All above tasks have to be done on a single jupyter notebook and share the same for the final submission of the project.
 
 
+FIFA 20 Player Clustering Project
+Objective:
+To analyze player attributes from the FIFA 20 dataset and classify players into distinct groups using clustering techniques.
 
+Key Insights:
+Silhouette Score: The silhouette score of 0.616 suggests that the clustering model effectively grouped players, with well-defined separation between clusters.
+Correlation Analysis: The following key relationships were observed:
+Player Value & Release Clause: Correlation of 0.979 indicates that player market value and release clauses are closely linked.
+Defending Skills: Correlation of 0.975 between standing tackle and sliding tackle, showing that players proficient in one defensive skill are likely skilled in the other.
+Goalkeeping Skills: Strong correlations (above 0.96) between attributes like diving, handling, reflexes, and positioning suggest that goalkeeping attributes are interconnected.
+Other Key Correlations:
+Ball Control & Dribbling (0.943)
+Interceptions & Defending Skills (0.945)
+Acceleration & Sprint Speed (0.924)
+Conclusion:
+The player clusters were well-separated, as indicated by the silhouette score. This analysis can help FIFA analysts or team managers categorize players based on their skills and potential. Understanding the relationships between player attributes allows clubs to better scout, recruit, and develop talent.
 
 
